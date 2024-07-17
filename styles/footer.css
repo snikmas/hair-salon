@@ -1,0 +1,107 @@
+.foot-display {
+  color:white;
+  background-color: black;
+}
+
+.foot-up {
+  display: grid;
+  padding: 4rem 5rem;
+  padding-bottom:2rem;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.foot-up h6 {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.foot-up p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+
+
+.line {
+  border:2px solid white;
+  width:3rem;
+  border-radius: 5px;
+  margin:1rem 0;
+}
+
+.block p {
+  margin: 1.5rem 0;
+}
+
+
+/* society */
+
+
+
+/* foot-cintact */
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.info > * {
+  font-size: 0.8rem;
+  margin:0.5rem 0;
+}
+
+.info i {
+  padding:0.5;
+}
+
+/* posts */
+.post{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  column-gap: 1rem;
+  margin: 0.8rem 0;
+  
+
+  align-self: center;
+}
+
+.post img {
+  width:100%;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+.post h6 {
+  font-size: 0.9rem;
+}
+
+.post span {
+  font-size: 0.6rem;
+}
+
+.post i {
+  margin:0;
+  padding-right:0.4rem;
+}
+
+
+
+/* minilook */
+.mini {
+  display: grid;
+  column-gap: 0.7rem;
+  row-gap: 0.7rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  width:100%;
+}
+
+.mini img {
+  width: 100%;
+}
+
+
